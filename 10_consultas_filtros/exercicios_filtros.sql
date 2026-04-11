@@ -16,23 +16,23 @@ FROM Person.Person
 WHERE LastName LIKE 'P%'
 
 
--- Quantas cidades unicas estão cadastrados nossos clientes
+-- Quantas cidades unicas estÃ£o cadastrados nossos clientes
 SELECT DISTINCT (city)
 FROM person.address
--- 575 cidades únicas 
+-- 575 cidades Ãºnicas 
 
--- mesma resposta de 575 cidades únicas de uma outra forma
+-- mesma resposta de 575 cidades Ãºnicas de uma outra forma
 SELECT count (distinct(city))
 FROM Person.Address
 
--- Quais são as cidade únicas que temos cadastradas em nosso sistema 
+-- Quais sÃ£o as cidade Ãºnicas que temos cadastradas em nosso sistema 
 
 SELECT DISTINCT (city) 
 FROM person.Address
--- Apareceu além dos números os nomes das cidades nesse comando
+-- Apareceu alÃ©m dos nÃºmeros os nomes das cidades nesse comando
 
 
--- Quantos produtos vermelhos tem o preço entre 500 a 1000 dólares
+-- Quantos produtos vermelhos tem o preÃ§o entre 500 a 1000 dÃ³lares
 SELECT COUNT (*)
 FROM Production.Product
 WHERE color  = 'red'
@@ -49,7 +49,7 @@ WHERE name LIKE '%road%'
 SELECT count (*)
 FROM Production.Product
 WHERE name LIKE '%road%'
--- 103 é a resposta
+-- 103 Ã© a resposta
 
 
 
