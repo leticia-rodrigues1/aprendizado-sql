@@ -1,5 +1,5 @@
 -- SUBQUERY OU SUBSELECT 
--- Monte um relatório para mim de todos os produtos cadastrados que têm preço de venda acima da média
+-- Monte um relatÃ³rio para mim de todos os produtos cadastrados que tÃªm preÃ§o de venda acima da mÃ©dia
 SELECT *
 FROM Production.Product
 WHERE ListPrice > 438.66
@@ -29,7 +29,7 @@ ON P.BusinessEntityID = e.BusinessEntityID
 AND E.Jobtitle ='Desing Engineer'
 
 
--- Encontre para mim todos os endereços que estão no estado de 'Alberta', pode trazer todas as informações 
+-- Encontre para mim todos os endereÃ§os que estÃ£o no estado de 'Alberta', pode trazer todas as informaÃ§Ãµes 
 SELECT*
 FROM Person.Address
 WHERE StateProvinceID IN (
