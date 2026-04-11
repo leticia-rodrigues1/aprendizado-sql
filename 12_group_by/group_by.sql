@@ -17,7 +17,7 @@ SELECT SpecialOfferID,UnitPrice
 FROM Sales.SalesOrderDetail
 WHERE SpecialOfferID = 9
 
--- vamos dizer que eu quero saber quantos cada produto foi vendido atÈ hoje 
+-- vamos dizer que eu quero saber quantos cada produto foi vendido at√© hoje 
 SELECT *
 FROM Sales.SalesOrderDetail
 
@@ -33,7 +33,7 @@ SELECT FirstName, COUNT(FirstName) AS "CONTAGEM"
 FROM Person.Person
 GROUP BY FirstName
 
--- na tabela production.product eu quero saber a mÈdia de preÁo para os produtos que s„o pratas(silver)
+-- na tabela production.product eu quero saber a m√©dia de pre√ßo para os produtos que s√£o pratas(silver)
 
 SELECT *
 FROM Production.Product
@@ -51,7 +51,7 @@ SELECT MiddleName, COUNT(FirstName) AS "QUANTIDADE"
 FROM person.person
 GROUP BY MiddleName
 
--- Desafio 2 Eu preciso saber em mÈdia qual È a quantidade(quantity) que cada produto È vendido na loja.
+-- Desafio 2 Eu preciso saber em m√©dia qual √© a quantidade(quantity) que cada produto √© vendido na loja.
 SELECT*
 FROM Production.Product
 
