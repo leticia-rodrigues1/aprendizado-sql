@@ -4,8 +4,8 @@ SET coluna 1 = valor1
     coluna 2 = valor2
 
 
--- agora vou usar o UPDATE para atualizar a tabela que selecionamos no SELECT a cima que È a tabela AULA
--- nesse exemplo a baixo N√O usamos o WHERE ent„o mudou todos as linhas dos nomes da coluna aula para TESTE
+-- agora vou usar o UPDATE para atualizar a tabela que selecionamos no SELECT a cima que √© a tabela AULA
+-- nesse exemplo a baixo N√ÉO usamos o WHERE ent√£o mudou todos as linhas dos nomes da coluna aula para TESTE
 UPDATE aula
 SET nome = 'teste'
 
