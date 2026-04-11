@@ -1,4 +1,4 @@
- ## 👩‍💻 Letícia Rodrigues 31 anos, solteira — Portfólio SQL
+ ## 👩‍💻 Letícia Rodrigues  — Portfólio SQL
  
 🎓 Sou formada em Administração | Pós em Projetos | ADS em andamento
 
@@ -6,57 +6,44 @@
 
 💻  SQL | Power BI | GitHub  | SAP | Jira | MS Project | Excel | Power Point | Gestão Ágil | Scrum 
 
-📌 Sobre mim
-
-Profissional com experiência na área bancária e em transição de carreira para a área de Dados, desenvolvendo habilidades em SQL Server, Power BI e Excel para análise de dados.
-Este repositório foi criado para registrar minha evolução prática em SQL, com exercícios, consultas e scripts desenvolvidos durante meus estudos.
-
-📂 Sobre este repositório
-
-Este repositório contém exercícios e projetos desenvolvidos durante meus estudos de SQL Server, com foco em análise de dados.
-Conteúdos estudados:
-
-SELECT
-
-WHERE
-
-GROUP BY
-
-JOIN
-
-SUBQUERY
-
-CREATE TABLE
-
-INSERT
-
-UPDATE
-
-DELETE
-
-VIEW
-
-CONSTRAINTS
-
-📂 Projetos SQL
-
-✔ Consultas básicas
-
-✔ Filtros e ordenação
-
-✔ Funções agregadas
-
-✔ JOIN
-
-✔ Subqueries
-
-✔ Criação de tabelas
-
-✔ Manipulação de dados
-
+📊 Consultas SQL com Filtros
 🎯 Objetivo
 
-Estou em transição de carreira para área de Dados e utilizo este repositório para registrar minha evolução prática em SQL.
+Aplicar consultas em SQL utilizando filtros para extrair informações específicas de uma base de dados.
+
+🛠️ Ferramentas
+
+SQL Server
+
+SSMS
+
+💻 O que foi desenvolvido
+
+Consultas com SELECT
+
+Uso de filtros com WHERE
+
+Aplicação do operador IN
+
+Uso de alias (AS) para organização dos dados
+
+📊 Base de dados
+
+Tabela: tb_netflix
+
+📌 Exemplo de consulta
+
+SELECT 
+    TOTAL_USUARIOS AS [ACESSOS TOTAL],
+    TIPO_DE_CONTA AS CONTA,
+    VALOR AS [VALOR DE VENDA],
+    ESTADOS AS LOCAIS
+FROM tb_netflix
+WHERE PERIODO_DE_ACESS = 'MANHA';
+
+🧠 Aprendizado
+
+Este exercício permitiu compreender como filtrar dados e organizar informações para facilitar a análise
 
 📫 Contato
 
