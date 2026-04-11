@@ -4,7 +4,7 @@ FROM tabela
 WHERE condicao
 
 /*
-OPERADOR - DESCRIÇÃO
+OPERADOR - DESCRIÃ‡ÃƒO
 =          IGUAL
 >          MAIOR QUE 
 <          MENOR QUE 
