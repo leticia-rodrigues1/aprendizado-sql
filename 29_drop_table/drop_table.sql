@@ -4,7 +4,7 @@ DROP TABLE nomeDaTabela
 -- Usando o DROP TABLE para excluir a tabela ERRORLOG
 DROP TABLE ErrorLog
 
--- TRUNCATE TABLE apagamos o que est· dentro da tabela, todas as informaÁıes e n„o a tabela 
+-- TRUNCATE TABLE apagamos o que est√° dentro da tabela, todas as informa√ß√µes e n√£o a tabela 
 TRUNCATE TABLE Person.Password
 
 SELECT *
