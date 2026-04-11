@@ -1,22 +1,22 @@
--- FUN«’ES MATEM¡TICAS
+-- FUN√á√ïES MATEM√ÅTICAS
 
 -- Soma +
 SELECT Unitprice + Linetotal
 FROM Sales.SalesOrderDetail
 
--- SubtraÁ„o -
+-- Subtra√ß√£o -
 SELECT Unitprice - Linetotal
 FROM Sales.SalesOrderDetail
 
--- MultiplicaÁ„o *
+-- Multiplica√ß√£o *
 SELECT Unitprice * Linetotal
 FROM Sales.SalesOrderDetail
 
--- Divis„o /
+-- Divis√£o /
 SELECT Unitprice / Linetotal
 FROM Sales.SalesOrderDetail
 
--- Vari·vel
+-- Vari√°vel
 SELECT AVG(Linetotal)
 FROM Sales.SalesOrderDetail
 
@@ -24,7 +24,7 @@ FROM Sales.SalesOrderDetail
 SELECT SUM(Linetotal)
 FROM Sales.SalesOrderDetail
 
---MÌnimo
+--M√≠nimo
 SELECT MIN(Linetotal)
 FROM Sales.SalesOrderDetail
 
