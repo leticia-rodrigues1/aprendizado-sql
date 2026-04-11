@@ -3,15 +3,15 @@
 SELECT SalesOrderID, DATEPART(year,OrderDate) AS ANO
 FROM Sales.SalesOrderHeader 
 
-SELECT SalesOrderID, DATEPART(month,OrderDate) AS MÊS
+SELECT SalesOrderID, DATEPART(month,OrderDate) AS MÃŠS
 FROM Sales.SalesOrderHeader 
 
 SELECT SalesOrderID, DATEPART(week,OrderDate) AS SEMANA
 FROM Sales.SalesOrderHeader 
 
-SELECT AVG(TotalDue) Media, DATEPART(month,OrderDate) AS Mês
+SELECT AVG(TotalDue) Media, DATEPART(month,OrderDate) AS MÃªs
 FROM sales.SalesOrderHeader
 GROUP BY DATEPART(month, orderdate)
-order by mês
+order by mÃªs
 
 
