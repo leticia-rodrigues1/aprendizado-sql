@@ -13,7 +13,7 @@ SELECT COUNT (DISTINCT Title)
 FROM person.Person
 
 -- Desafio 1 Quantos produtos temos cadastrados em nossa tabela de produtos (production.product)
--- Desafio 2 Quantos tamanhos de produtos únicos temos cadastrado em nossa tabela (production.product)
+-- Desafio 2 Quantos tamanhos de produtos Ãºnicos temos cadastrado em nossa tabela (production.product)
 
 
 SELECT COUNT (*)
