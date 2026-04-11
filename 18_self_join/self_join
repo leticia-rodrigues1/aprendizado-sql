@@ -6,7 +6,7 @@ SELECT A.ContactName,A.Region,B.ContactName,B.Region
 FROM CUSTOMERS A, CUSTOMERS B
 WHERE A.Region = B.Region
 
--- Eu quero encontrar (nome e data de contrataÁ„o) de todos os funcion·rios que foram contratados no mesmo ano
+-- Eu quero encontrar (nome e data de contrata√ß√£o) de todos os funcion√°rios que foram contratados no mesmo ano
 SELECT A.firstname,A.hiredate,b.firstname,b.hiredate
 FROM Employees A, Employees B
 WHERE DATEPART(YEAR,a.hiredate)= DATEPART(YEAR,b.hiredate)
