@@ -1,5 +1,5 @@
 -- LEFT OUTER JOIN OU LEFT JOIN 
--- Quero descobrir quais pessoas tem um cart„o de crÈdito registrado
+-- Quero descobrir quais pessoas tem um cart√£o de cr√©dito registrado
 
 SELECT*
 FROM Person.Person PP 
