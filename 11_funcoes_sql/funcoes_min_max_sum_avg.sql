@@ -2,7 +2,7 @@ SELECT TOP 10 sum(linetotal) AS "Soma"
 FROM Sales.SalesOrderDetail
 
 
-SELECT TOP 10 min(linetotal) AS "Mínimo"
+SELECT TOP 10 min(linetotal) AS "MÃ­nimo"
 FROM Sales.SalesOrderDetail
 
 
