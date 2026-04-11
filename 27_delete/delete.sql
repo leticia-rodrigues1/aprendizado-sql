@@ -6,7 +6,7 @@ WHERE condicao
 SELECT *
 FROM aula
 
--- Nesse expemplo abaixo vamos apagar apenas o nome que est· escrito MUDEI da tabela AULA 
+-- Nesse expemplo abaixo vamos apagar apenas o nome que est√° escrito MUDEI da tabela AULA 
 DELETE FROM aula 
 WHERE nome = 'mudei'
 SELECT *
