@@ -1,16 +1,16 @@
--- BusinessEntityID, FirstName, LastName, EmailAddress - AQUI VOC  EST¡ DEFININDO AS COLUNAS 
+-- BusinessEntityID, FirstName, LastName, EmailAddress - AQUI VOC√ä EST√Å DEFININDO AS COLUNAS 
 SELECT TOP 10*
 FROM Person.Person
 
 SELECT TOP 10*
 FROM Person.EmailAddress
 
--- Quando abrimos as duas tabelas a cima a coluna em comum das duas È BusinessEntityID e vamos juntar as duas por ela, da seguite forma abaixo:
+-- Quando abrimos as duas tabelas a cima a coluna em comum das duas √© BusinessEntityID e vamos juntar as duas por ela, da seguite forma abaixo:
 SELECT p.BusinessEntityID, p.FirstName, p.LastName, pe.EmailAddress
 FROM Person.Person AS "P"
 INNER JOIN Person.EmailAddress PE on p.BusinessEntityID = pe.BusinessEntityID
 
--- Vamos dizer que nÛs queremos os nomes dos produtos e as informaÁıes de suas subcategorias 
+-- Vamos dizer que n√≥s queremos os nomes dos produtos e as informa√ß√µes de suas subcategorias 
 -- ListPrice, Nome do Produto, Nome da Subcategoria 
 SELECT TOP 10 *
 FROM Production.Product 
@@ -22,13 +22,13 @@ SELECT pr.ListPrice, pr.Name, pc.Name
 FROM Production.Product Pr
 INNER JOIN Production.ProductSubcategory PC on PC.ProductCategoryID= pr.ProductSubcategoryID
 
--- PARA JUNTAR UMA TABELA COM A OUTRA COM TODOS OS DADOS S” JUNTAR TODAS AS INFORMA«’ES SEM DEFINIR AS COLUNAS
+-- PARA JUNTAR UMA TABELA COM A OUTRA COM TODOS OS DADOS S√ì JUNTAR TODAS AS INFORMA√á√ïES SEM DEFINIR AS COLUNAS
 SELECT TOP 10*
 FROM Person.BusinessEntityAddress BA
 INNER JOIN Person.Address PA ON PA.AddressID = BA.AddressID
 
 
--- DESAFIO BusinessEntityID,Name,PhoneNumberTypeID,PhoneNumber aqui nÛs estamos definindo as colunas  
+-- DESAFIO BusinessEntityID,Name,PhoneNumberTypeID,PhoneNumber aqui n√≥s estamos definindo as colunas  
 SELECT TOP 10 *
 FROM person.PhoneNumberType
 
