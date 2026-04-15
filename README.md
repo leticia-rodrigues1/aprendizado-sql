@@ -1,52 +1,25 @@
- ## 👩‍💻 Letícia Rodrigues  — Portfólio SQL
- 
-🎓 Sou formada em Administração | Pós em Projetos | ADS em andamento
+📚 Aprendizado em SQL
 
-📊 Em transição de carreira para Área de Dados
+Este repositório contém meus estudos e exercícios práticos em SQL Server.
 
-💻  SQL | Power BI | GitHub  | SAP | Jira | MS Project | Excel | Power Point | Gestão Ágil | Scrum 
-
-📊 Consultas SQL com Filtros
 🎯 Objetivo
 
-Aplicar consultas em SQL utilizando filtros para extrair informações específicas de uma base de dados.
+Registrar minha evolução no aprendizado de SQL durante a transição para a área de dados.
 
-🛠️ Ferramentas
+📖 Conteúdo
 
-SQL Server
+Consultas básicas (SELECT, WHERE)
 
-SSMS
+JOINs
 
-💻 O que foi desenvolvido
+GROUP BY
 
-Consultas com SELECT
+Funções agregadas
 
-Uso de filtros com WHERE
+Exercícios práticos
 
-Aplicação do operador IN
+🚀 Evolução
 
-Uso de alias (AS) para organização dos dados
+Os exercícios foram desenvolvidos com foco em prática contínua e entendimento dos conceitos fundamentais.
 
-📊 Base de dados
-
-Tabela: tb_netflix
-
-📌 Exemplo de consulta
-
-SELECT 
-    TOTAL_USUARIOS AS [ACESSOS TOTAL],
-    TIPO_DE_CONTA AS CONTA,
-    VALOR AS [VALOR DE VENDA],
-    ESTADOS AS LOCAIS
-FROM tb_netflix
-WHERE PERIODO_DE_ACESS = 'MANHA';
-
-🧠 Aprendizado
-
-Este exercício permitiu compreender como filtrar dados e organizar informações para facilitar a análise
-
-📫 Contato
-
-LinkedIn: https://www.linkedin.com/in/leticia-rodrigues-a71055147
-
-Email: leticiaradm@outlook.com
+✨ Repositório de estudos em constante atualização
