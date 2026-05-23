@@ -1,12 +1,12 @@
-📚 Aprendizado em SQL
+### Aprendizado em SQL
 
 Este repositório contém meus estudos e exercícios práticos em SQL Server.
 
-🎯 Objetivo
+### Objetivo
 
 Registrar minha evolução no aprendizado de SQL durante a transição para a área de dados.
 
-📖 Conteúdo
+### Conteúdo
 
 Consultas básicas (SELECT, WHERE)
 
@@ -18,8 +18,8 @@ Funções agregadas
 
 Exercícios práticos
 
-🚀 Evolução
+### Evolução
 
 Os exercícios foram desenvolvidos com foco em prática contínua e entendimento dos conceitos fundamentais.
 
-✨ Repositório de estudos em constante atualização
+### Repositório de estudos em constante atualização
