@@ -1,0 +1,8 @@
+-- USANDO O IN E O NOT IN
+SELECT *
+FROM music
+WHERE estilo IN ( 'ROCK', 'INDIE ROCK'); 
+
+SELECT *
+FROM music
+WHERE estilo NOT IN ('ROCK');
