@@ -1,0 +1,17 @@
+--SELECT NOME_COLUNA 
+--FROM TABELA A, TABELA B
+--WHERE CONDICAO
+
+SELECT A.ContactName,A.Region,B.ContactName,B.Region
+FROM CUSTOMERS A, CUSTOMERS B
+WHERE A.Region = B.Region
+
+-- Eu quero encontrar (nome e data de contratação) de todos os funcionários que foram contratados no mesmo ano
+SELECT A.firstname,A.hiredate,b.firstname,b.hiredate
+FROM Employees A, Employees B
+WHERE DATEPART(YEAR,a.hiredate)= DATEPART(YEAR,b.hiredate)
+
+-- Eu quero saber na tabela detalhe do pedido [Order Details ] quais produtos tem o mesmo percentual de desconto
+SELECT A.ProductID, A.discount, B.productId, B.discount
+FROM [Order Details] A, [Order Details] B
+WHERE A.Discount = B.Discount
