@@ -64,9 +64,10 @@ AS											-- AS: Para dar iniciar a operação/ os comandos
 --==============================================================================================================================================
 
 -- 2 PROCEDURE 
-CREATE PROCEDURE ListarTransacoesPorClientes 
+ALTER PROCEDURE ListarTransacoesPorClientes 
 
-@Cliente NVARCHAR(100)
+@Cliente NVARCHAR(100),
+@Aprovado NVARCHAR(100)
 
 AS
 
@@ -74,11 +75,34 @@ AS
 	SELECT TipoTransacao,
 			Valor_Transacao,
 			Cliente,
-			Aprovado
+			Aprovado,
+			DataTransacao
 	FROM dbo.BaseFraude
 	WHERE Cliente = @Cliente
+	AND	  Aprovado = @Aprovado
 
 	END;
 	GO 
 
-EXEC ListarTransacoesPorClientes @Cliente = 'Cliente 8'  -- Criamos um parâmetro e é só ir alterando o número do cliente
+EXEC ListarTransacoesPorClientes @Cliente = 'Cliente 4' , @Aprovado = 'Não'
+
+--============================================================================================================================================
+-- 3 PROCEDURE 
+CREATE PROCEDURE BuscaTransacoes
+
+-- Declarando as variáves / Passando os parâmetros 
+@Cliente NVARCHAR(100),
+@Ano		INT
+
+AS
+
+BEGIN 
+	SELECT *
+	FROM dbo.BaseFraude	
+	WHERE Cliente = @Cliente 
+	AND YEAR(DataTransacao) = @Ano
+END;
+GO
+
+EXEC BuscaTransacoes @Cliente = 'Cliente 4' , @Ano = 2023
+
